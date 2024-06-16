@@ -1,0 +1,23 @@
+{
+  "name": "Munch Manager",
+  "short_name": "MunchManager",
+  "description": "A Progressive Web App to make your week menu the easy way",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111425",
+  "theme_color": "#111425",
+  "orientation": "portrait-primary",
+  "lang": "nl-be",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
