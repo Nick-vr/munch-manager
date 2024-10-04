@@ -1,6 +1,13 @@
 ---
 // export const prerender = true
 import Layout from '../layouts/Layout.astro'
+import pb from '../utils/initPocketbase'
+
+const records = await pb.collection('test').getFullList({
+  sort: '-created',
+})
+
+console.log(records)
 ---
 
 <Layout title="Home">
